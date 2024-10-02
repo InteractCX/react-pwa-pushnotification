@@ -37,7 +37,7 @@ export function register(config) {
         }
 
         window.addEventListener('load', () => {
-            const swUrl = `/worker.js`;
+            const swUrl = `/sw.js`;
             console.log("swUrl", swUrl)
 
             if (isLocalhost) {
